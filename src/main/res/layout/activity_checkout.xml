@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="77dp"
+        android:layout_y="96dp"
+        android:text="Sub Total"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="153dp"
+        android:text="Shipping Cost :"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="66dp"
+        android:layout_y="213dp"
+        android:text="Tax(7.5%) :"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="272dp"
+        android:layout_y="105dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="269dp"
+        android:layout_y="154dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="272dp"
+        android:layout_y="215dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="108dp"
+        android:layout_height="52dp"
+        android:layout_x="42dp"
+        android:layout_y="306dp"
+        android:text="Total  :"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="232dp"
+        android:layout_y="310dp"
+        android:text="TextView"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="34dp"
+        android:layout_y="432dp"
+        android:text="Thank you for Purchasing!"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/messageLog_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:layout_x="-2dp"
+        android:layout_y="543dp"
+        android:inputType="textLongMessage|textMultiLine"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/submit_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_x="2dp"
+        android:layout_y="486dp"
+        android:text="Submit to Server" />
+
+
+</AbsoluteLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ShoppingCartNew</string>
+
+
+    <string-array name="servers">
+        <item>Kazuki - Local OS</item>
+        <item>Kazuki - Remote OS</item>
+    </string-array>
+
+</resources>
+
